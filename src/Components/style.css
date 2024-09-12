@@ -57,8 +57,9 @@
 .item a{
     padding: 16px;
     display: inline-block;
-    width: 100%;
+    width: 90px;
     text-align: left;
+    
 
 }
 .item a:hover{

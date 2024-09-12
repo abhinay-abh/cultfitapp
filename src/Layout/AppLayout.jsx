@@ -2,6 +2,8 @@ import React from 'react'
 import './layout.css'
 import Header from '../Components/Header'
 import Sidebar from '../Components/Sidebar'
+import DashboardContainer from '../Containers/DashboardContainer'
+import UserContainer from '../Containers/UserContainer'
 const AppLayout = () => {
   return (
     <div>
@@ -12,8 +14,11 @@ const AppLayout = () => {
 
       <div className="SideBar"><Sidebar/></div>
       
-
-      <div>Content</div>
+{/*content  */}
+      <div className='content'>
+        {/* <DashboardContainer/> */}
+        <UserContainer/>
+        </div>
     </div>
   )
 }
